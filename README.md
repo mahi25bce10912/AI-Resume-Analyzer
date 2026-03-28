@@ -16,47 +16,75 @@ The main idea behind this project is to apply concepts of AI and machine learnin
 
 ## Features
 
-* Takes resume text as input
-* Predicts a job role based on skills
-* Identifies key skills present in the resume
-* Gives simple suggestions for improvement
-* Easy to run and test
+* Predicts job role based on resume content
+* Identifies important skills
+* Calculates resume score
+* Categorizes resume (Weak / Average / Strong)
+* Provides suggestions for improvement
+* Displays graphical analysis of skills
 
 ---
 
 ## Technologies / Tools Used
 
 * Python
-* Scikit-learn
-* NLTK
 * Pandas
+* NLTK (Natural Language Processing)
+8 Scikit-learn (Machine Learning)
+* Matplotlib (Visualization)
 
 ---
 
-## Steps to Install & Run the Project
+## Setup Instructions
 
-1. Open terminal or command prompt
-
-2. Install required libraries:
-   pip install pandas scikit-learn nltk
-
-3. Run the program:
-   python main.py
-
-4. Paste your resume text when asked
+* 1.Install Python (3.x)
+* 2.Install required libraries: pip install pandas nltk scikit-learn matplotlib
+* 3.Download NLTK stopwords (only first time): import nltk  in nltk.download('stopwords')
 
 ---
 
-## Instructions for Testing
+## How to Run
 
-To properly test the project, I tried different types of inputs:
+* Run the Python file: python resume_analyzer.py
+* Choose option:
+     1. Analyze Resume
+     2. Exit
+* Paste your resume text when prompted.
 
-* A resume with strong technical skills (like Python, ML)
-* A resume focused on web development
-* A resume with very few skills
-* A mixed or unclear resume
+---
+  
+## Output
 
-This helps in understanding how the model behaves in different situations.
+The system will display:
+* Predicted Job Role
+* Resume Score
+* Category (Weak / Average / Strong)
+* Skills Found
+* Suggestions for improvement
+* Graph showing skill comparison
+
+---
+
+##  Example Input
+
+I know Python, machine learning, data analysis, and have worked on AI projects.
+
+---
+
+## Future Improvements
+
+*  Add support for PDF/DOC resumes
+*  Improve model accuracy with larger dataset
+*  Build web-based interface
+*  Add more job roles and skills
+
+----
+
+## Conclusion
+
+This project demonstrates how AI and Machine Learning can be used to solve real-world problems like resume analysis and career guidance.
+
+----
 
 
 
