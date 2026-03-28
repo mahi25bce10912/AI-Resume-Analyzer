@@ -1,8 +1,6 @@
+## Project Title : AI Resume Analyzer
 
-
-## Project Title
-
-AI Resume Analyzer using Machine Learning
+''The AI Resume Analyzer is a system that evaluates a resume using Machine Learning and Natural Language Processing techniques. It predicts a suitable job role, analyzes skills, and provides suggestions to improve the resume. ''
 
 ---
 
