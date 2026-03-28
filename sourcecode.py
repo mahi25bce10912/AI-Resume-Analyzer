@@ -138,13 +138,13 @@ def main():
             role, skills, suggestions, score, category, matched, total = analyze_resume(resume_input)
 
             print("\n===== ANALYSIS RESULT =====")
-            print("🔹 Predicted Job Role:", role)
-            print("🔹 Reason: Based on detected skills in the resume")
-            print("🔹 Resume Score:", score, "/100")
-            print("🔹 Category:", category)
-            print("🔹 Skills Found:", skills)
+            print("* Predicted Job Role:", role)
+            print("* Reason: Based on detected skills in the resume")
+            print("* Resume Score:", score, "/100")
+            print("* Category:", category)
+            print("* Skills Found:", skills)
 
-            print("\n🔹 Suggestions:")
+            print("\n* Suggestions:")
             for s in suggestions:
                 print(" -", s)
 
