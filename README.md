@@ -6,11 +6,12 @@
 
 ## Overview of the Project
 
-This project focuses on analyzing a resume and predicting a suitable job role based on the skills mentioned in it. While working on this, I realized that many students (including me) are often unsure whether their resume actually matches industry expectations.
+The goal of this project is to analyze a resume and forecast a suitable job role based on the skills listed on it. While working on this, I came to the realization that a lot of students—including myself—frequently question whether their resumes truly meet industry standards.
 
-So, I tried to build a simple system that can read resume text, identify important skills, and give a basic idea of which job role it fits into. Along with prediction, the system also gives a few suggestions so the resume can be improved.
+I therefore attempted to develop a basic system that can read resume text, recognize key competencies, and provide a general notion of which job role it falls into. The system makes some recommendations in addition to predictions. in order to make the resume better.
 
-The main idea behind this project is to apply concepts of AI and machine learning in a practical and understandable way.
+
+The primary goal of this project is to apply machine learning and artificial intelligence concepts in a clear and useful manner.
 
 ---
 
